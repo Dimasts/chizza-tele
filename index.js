@@ -41,7 +41,7 @@ var prefixx = /^[°zZ#$@+,.?=''():√%!¢£¥€π¤ΠΦ_&<`™©®Δ^βα¦|/\\
         return ctx.editMessageText("Here's My Other Project\nhttps://wa.me/6285895618295?text=#menu")
         break
         case "sc":
-        return ctx.editMessageText("Source Code!\nhttps://github.com/ichizza",{parse_mode: "Markdown"}).then(a => {
+        return ctx.editMessageText("Source Code!\nhttps://github.com",{parse_mode: "Markdown"}).then(a => {
             ctx.editMessageText("Give Credits Please!")
         })
         break
