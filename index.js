@@ -55,7 +55,7 @@ const chats = ichi.message.text || ichi.message.caption || ""
 var prefix = /^[°zZ#$@+,.?=''():√%!¢£¥€π¤ΠΦ_&<`™©®Δ^βα¦|/\\©^]/.test(chats) ? chats.match(/^[°zZ#$@+,.?=''():√%¢£¥€π¤ΠΦ_&<!`™©®Δ^βα¦|/\\©^]/gi) : '.'
 
     command = chats.trim().split(" ").shift().toLowerCase()
-const ownerUsername = "WhyEtzz" // Change Your Username
+const ownerUsername = "Yahaha" // Change Your Username
 const isOwner = ichi.message.from.username == ownerUsername
 const pushname = ichi.message.from.first_name+" "+ichi.message.from.last_name
 const from = ichi.message.from.id.toString()
@@ -156,8 +156,8 @@ await fs.writeFileSync("./temp/ytmp3.png", buffer)
 const filebuffer = await Buffer.from(buffer2)
 const tags = {
     title: ytmp3.title,
-    artist: "t.me/@X_ChizzaBot",
-    album: "Created With Ichizza_Bot",
+    artist: "t.me/@yahaha",
+    album: "Created With Dimas_Bot",
     APIC: "./temp/ytmp3.png",
     TRCK: "27"
 }
@@ -184,8 +184,8 @@ await fs.writeFileSync("./temp/play.png", buffer)
 const filebuffers = await Buffer.from(buffer22)
 const tagss = {
     title: play.title,
-    artist: "t.me/@X_ChizzaBot",
-    album: "Created With Ichizza_Bot",
+    artist: "t.me/@yahaha",
+    album: "Created With Dimas_Bot",
     APIC: "./temp/play.png",
     TRCK: "27"
 }
