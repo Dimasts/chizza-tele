@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ichizza/chizza-tele.git"
+    "url": "git+https://github.com/Dimasts/chizza-tele.git"
   },
-  "author": "Ichizza",
+  "author": "Dimas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ichizza/chizza-tele/issues"
+    "url": "https://github.com/Dimasts/chizza-tele/issues"
   },
-  "homepage": "https://github.com/ichizza/chizza-tele#readme",
+  "homepage": "https://github.com/Dimasts/chizza-tele#readme",
   "dependencies": {
     "axios": "^0.26.0",
     "chalk": "^4.1.2",
